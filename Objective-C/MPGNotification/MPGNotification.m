@@ -37,11 +37,11 @@ static const CGFloat kNotificationHeight = 64;
 static const CGFloat kIconImageSize = 32.0;
 static const NSTimeInterval kLinearAnimationTime = 0.25;
 
-NSString * const kTitleFontName = @"HelveticaNeue-Bold";
+NSString * const kTitleFontName = @"AvenirNext-Bold";
 static const CGFloat kTitleFontSize = 17.0;
 
-NSString * const kSubtitleFontName = @"HelveticaNeue";
-static const CGFloat kSubtitleFontSize = 14.0;
+NSString * const kSubtitleFontName = @"AvenirNext-Regular";
+static const CGFloat kSubtitleFontSize = 13.0;
 
 static const CGFloat kButtonFontSize = 13.0;
 static const CGFloat kButtonCornerRadius = 3.0;
