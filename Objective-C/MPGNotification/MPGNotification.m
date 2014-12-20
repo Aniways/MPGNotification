@@ -708,7 +708,7 @@ static const CGFloat kColorAdjustmentLight = 0.35;
     newButton.tag = tag;
     
     [newButton setTitle:title forState:UIControlStateNormal];
-    newButton.titleLabel.font = [UIFont systemFontOfSize:kButtonFontSize];
+    newButton.titleLabel.font = [UIFont fontWithName:kTitleFontName size:kButtonFontSize];
     
     [newButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [newButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
